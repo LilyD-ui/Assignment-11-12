@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,300;1,400&display=swap');
+
+    h1 {
+        font-family: Roboto, sans-serif;
+    }
+
+    ul {
+        list-style: none;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+
+    p[class="about"] {
+        background-color: rgb(71, 61, 132);
+        color: cornsilk;
+        text-shadow: 2px 2px 4px #000;
+    }
