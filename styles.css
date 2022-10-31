@@ -1,19 +1,158 @@
+* {
+    box-sizing: border-box;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,300;1,400&display=swap');
 
-    h1 {
-        font-family: Roboto, sans-serif;
+h1 {
+    font-size: 50px;
+    border-top: 5px solid whitesmoke;
+    border-bottom: 5px solid whitesmoke;
+    padding: 20px;
+    text-align: center;
+    margin: 5% 20%;
+    border-radius: 10px;
+    margin-bottom: 5%;   
+}
+
+    @media (min-width: 481px) and (max-width: 768px) {
+        h1 {
+            font-size: 50px;
+            border-top: 5px solid whitesmoke;
+            border-bottom: 5px solid whitesmoke;
+            padding: 20px;
+            text-align: center;
+            margin: 5% 20%;
+            border-radius: 10px;
+            margin-bottom: 5%;   
+        }
     }
 
-    ul {
-        list-style: none;
+    @media (max-width: 480px) {
+        h1 {
+            font-size: 20px;
+        }
+    }
+
+img {
+    display: block;
+    margin: auto;
+    box-shadow: 5px 5px 5px 5px #777777;
+    size: 600px;
+}
+
+    @media (min-width: 481px) and (max-width: 768px) {
+        img {
+            width: 400px;
+            height: 400px;
+            display: block;
+            margin: auto;
+            box-shadow: 5px 5px 5px 5px #777777;
+        }
     }
     
-    a {
-        text-decoration: none;
+    @media (max-width: 480px) {
+        img {
+            width: 250px;
+            height: 250px;
+            display: block;
+            margin: auto;
+            box-shadow: 5px 5px 5px 5px #777777;
+        }
     }
 
-    p[class="about"] {
-        background-color: rgb(71, 61, 132);
-        color: cornsilk;
-        text-shadow: 2px 2px 4px #000;
+.stylish {
+    text-align: center;
+    border-radius: 10px 60px;
+    margin-bottom: 20px;
+    background-color:  cadetblue;
+    height: 400px;
+    width: 400px;
+}
+
+    @media (min-width: 481px) and (max-width: 768px) {
+        .stylish {
+            text-align: center;
+            border-radius: 10px 60px;
+            margin-bottom: 20px;
+            background-color:  cadetblue;
+            height: 350px;
+            width: 350px;
+            }
     }
+
+    @media (max-width: 480px) {
+        .stylish {
+            text-align: center;
+            border-radius: 10px 60px;
+            margin-bottom: 20px;
+            background-color:  cadetblue;
+            height: 275px;
+            width: 275px;
+            }
+    }
+
+h3 {
+    font-size: 20px;
+}
+
+    @media (max-width: 480px) {
+        h3 {
+            font-size: 12px;
+        } 
+    }
+
+    @media (min-width: 481px) and (max-width: 768px) {
+        h3 {
+            font-size: 15px;
+        }
+    }
+
+.stylish3 {
+    list-style: none;
+}
+    
+a {
+    text-decoration: none;
+}
+
+.about {
+    background-color: rgb(71, 61, 132);
+    color: cornsilk;
+    text-shadow: 2px 2px 4px #000;
+}
+
+nav {
+    text-align: center;
+    margin-bottom: 75px;
+    font-size: 25px;
+}
+
+li {
+    display: inline;
+    margin: 10px;
+}
+
+a:link {
+    color: rgb(226, 159, 195);
+    text-decoration: none;
+        
+}
+        
+a:visited {
+    color: rgb(68, 49, 75);
+ }
+        
+    a:hover {
+    color: rgb(255, 166, 214);
+    text-decoration: underline;
+}
+        
+a:active {
+    color: rgb(137, 247, 181);
+}
+    
+  
+.stylish {
+    font-size: 20px;    
+}

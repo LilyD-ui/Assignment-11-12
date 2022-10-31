@@ -4,19 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello You Have Made a Mistaking Looking for This Page</title>
+    <title>Hello You Have Made a Mistake Looking for This Page</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <!-- in your CSS file, please import text as seen in the chapter 12 lecture video and apply it to your CSS file at the very top - use any font you'd like! Also... make sure ALL of your HTML documents are linked to the CSS file! -->
-<p>
-<h2>
-    <ul>
+<p id="top">
+<nav>
+    <h2>
         <li> <a href="index.html"> Home </a> </li>
         <li> <a href="aboutme.html"> About Me </a></li> 
         <li> <a href="contact.html"> Contact </a></li>
-    </ul>
-</h2>
+    </h2>
+</nav>
 </p>    
 
 
@@ -29,13 +29,12 @@ a {
     text-decoration: none;
 }
 on the <ul> tag and <a> tags -->
-
-<h1 id="top"> My Name is Lily Duong and I'm your next Web Developer. </h1>     
+<div class="mainTitle">
+    <h1> My Name is Lily Duong and I'm your next Web Developer. </h1> 
+</div>
+    
 
 <!-- treat the info above as an h1 -->
-
-<br>
-<br>
 
 <!-- create some line breaks aka <br /> tags-->
 
@@ -43,15 +42,17 @@ on the <ul> tag and <a> tags -->
 
 <img src="images/maid cafe.png" alt="Recent Artwork I made" height="600" width="600">
 
-<br>
 
-<h2>All of this amazing styling is purly using:</h2>
+<div class="stylish">
+    <h3 class="stylish2">All of this amazing styling is purly using:</h3>
 <p> 
-    <ul>
+    <ul class="stylish3">
         <li> HTML </li>
         <li> CSS </li>
     </ul>
 </p> 
+</div>
+
    
 
 <!-- turn these above into a list - doesn't need to be clickable -->
